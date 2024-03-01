@@ -48,7 +48,7 @@ public class LWJGLRenderEngine {
 		glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE); // the window will be resizable
 
 		// Create the window
-		window = glfwCreateWindow(300, 300, "LWJGL Render Engine v0.0.1", NULL, NULL);
+		window = glfwCreateWindow(1920, 1080, "LWJGL Render Engine v0.0.2", NULL, NULL);
 		if ( window == NULL )
 			throw new RuntimeException("Failed to create the GLFW window");
 
@@ -95,7 +95,7 @@ public class LWJGLRenderEngine {
 		GL.createCapabilities();
 
 		// Set the clear color
-		glClearColor(1.0f, 0.0f, 0.0f, 0.0f);
+		glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 
 		// Run the rendering loop until the user has attempted to close
 		// the window or has pressed the ESCAPE key.
