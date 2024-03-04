@@ -3,6 +3,9 @@ LWJGL Render Engine
 
 # Installing and running
 
+Install JAVA JDK 21 or later at, and double click on the downloaded release javarenderengine.jar to run it directly:
+https://www.oracle.com/java/technologies/downloads/#java21
+
 Alternative way of running the program is to open a console window on the javarenderengine.jar location and type command
 "java -jar javarenderengine.jar", which will also show debug output text on the console window. Otherwise console debug output
 can be activated in the Java Control Panel or Configure Java application -> Advanced -> Java console -> Show console and
