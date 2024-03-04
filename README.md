@@ -18,6 +18,6 @@ Download LWJGL version 3.3.3 or later for your platform at https://www.lwjgl.org
 To make an executable .jar file, export runnable .jar from eclipse with package required libraries into generated JAR.
 After generating application .jar, add platform specific lwjgl jars and binaries to the root of the .jar zip file.
 
-# Licence (FSNLR -- Free Software No License Required)
+# License (NLR -- No License Required)
 This is free software which does not require any license agreement under government enforcement to limit it's freedom of usage for any purpose.
 
