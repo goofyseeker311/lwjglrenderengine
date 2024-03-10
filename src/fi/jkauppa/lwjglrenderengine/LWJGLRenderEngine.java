@@ -1,17 +1,16 @@
 package fi.jkauppa.lwjglrenderengine;
 
-import org.lwjgl.*;
-import org.lwjgl.glfw.*;
-import org.lwjgl.opengl.*;
-import org.lwjgl.system.*;
+import java.nio.IntBuffer;
 
-import java.nio.*;
-
-import static org.lwjgl.glfw.Callbacks.*;
-import static org.lwjgl.glfw.GLFW.*;
-import static org.lwjgl.opengl.GL11.*;
-import static org.lwjgl.system.MemoryStack.*;
-import static org.lwjgl.system.MemoryUtil.*;
+import org.lwjgl.Version;
+import org.lwjgl.glfw.Callbacks;
+import org.lwjgl.glfw.GLFW;
+import org.lwjgl.glfw.GLFWErrorCallback;
+import org.lwjgl.glfw.GLFWVidMode;
+import org.lwjgl.opengl.GL;
+import org.lwjgl.opengl.GL46;
+import org.lwjgl.system.MemoryStack;
+import org.lwjgl.system.MemoryUtil;
 
 public class LWJGLRenderEngine {
 
@@ -25,12 +24,12 @@ public class LWJGLRenderEngine {
 		loop();
 
 		// Free the window callbacks and destroy the window
-		glfwFreeCallbacks(window);
-		glfwDestroyWindow(window);
+		Callbacks.glfwFreeCallbacks(window);
+		GLFW.glfwDestroyWindow(window);
 
 		// Terminate GLFW and free the error callback
-		glfwTerminate();
-		glfwSetErrorCallback(null).free();
+		GLFW.glfwTerminate();
+		GLFW.glfwSetErrorCallback(null).free();
 	}
 
 	private void init() {
@@ -39,38 +38,38 @@ public class LWJGLRenderEngine {
 		GLFWErrorCallback.createPrint(System.err).set();
 
 		// Initialize GLFW. Most GLFW functions will not work before doing this.
-		if ( !glfwInit() )
+		if ( !GLFW.glfwInit() )
 			throw new IllegalStateException("Unable to initialize GLFW");
 
 		// Configure GLFW
-		glfwDefaultWindowHints(); // optional, the current window hints are already the default
-		glfwWindowHint(GLFW_VISIBLE, GLFW_FALSE); // the window will stay hidden after creation
-		glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE); // the window will be resizable
+		GLFW.glfwDefaultWindowHints(); // optional, the current window hints are already the default
+		GLFW.glfwWindowHint(GLFW.GLFW_VISIBLE, GLFW.GLFW_FALSE); // the window will stay hidden after creation
+		GLFW.glfwWindowHint(GLFW.GLFW_RESIZABLE, GLFW.GLFW_TRUE); // the window will be resizable
 
 		// Create the window
-		window = glfwCreateWindow(1920, 1080, "LWJGL Render Engine v0.0.2", NULL, NULL);
-		if ( window == NULL )
+		window = GLFW.glfwCreateWindow(1920, 1080, "LWJGL Render Engine v0.0.3", MemoryUtil.NULL, MemoryUtil.NULL);
+		if ( window == MemoryUtil.NULL )
 			throw new RuntimeException("Failed to create the GLFW window");
 
 		// Setup a key callback. It will be called every time a key is pressed, repeated or released.
-		glfwSetKeyCallback(window, (window, key, scancode, action, mods) -> {
-			if ( key == GLFW_KEY_ESCAPE && action == GLFW_RELEASE )
-				glfwSetWindowShouldClose(window, true); // We will detect this in the rendering loop
+		GLFW.glfwSetKeyCallback(window, (window, key, scancode, action, mods) -> {
+			if ( key == GLFW.GLFW_KEY_ESCAPE && action == GLFW.GLFW_RELEASE )
+				GLFW.glfwSetWindowShouldClose(window, true); // We will detect this in the rendering loop
 		});
 
 		// Get the thread stack and push a new frame
-		try ( MemoryStack stack = stackPush() ) {
+		try ( MemoryStack stack = MemoryStack.stackPush() ) {
 			IntBuffer pWidth = stack.mallocInt(1); // int*
 			IntBuffer pHeight = stack.mallocInt(1); // int*
 
 			// Get the window size passed to glfwCreateWindow
-			glfwGetWindowSize(window, pWidth, pHeight);
+			GLFW.glfwGetWindowSize(window, pWidth, pHeight);
 
 			// Get the resolution of the primary monitor
-			GLFWVidMode vidmode = glfwGetVideoMode(glfwGetPrimaryMonitor());
+			GLFWVidMode vidmode = GLFW.glfwGetVideoMode(GLFW.glfwGetPrimaryMonitor());
 
 			// Center the window
-			glfwSetWindowPos(
+			GLFW.glfwSetWindowPos(
 				window,
 				(vidmode.width() - pWidth.get(0)) / 2,
 				(vidmode.height() - pHeight.get(0)) / 2
@@ -78,12 +77,12 @@ public class LWJGLRenderEngine {
 		} // the stack frame is popped automatically
 
 		// Make the OpenGL context current
-		glfwMakeContextCurrent(window);
+		GLFW.glfwMakeContextCurrent(window);
 		// Enable v-sync
-		glfwSwapInterval(1);
+		GLFW.glfwSwapInterval(1);
 
 		// Make the window visible
-		glfwShowWindow(window);
+		GLFW.glfwShowWindow(window);
 	}
 
 	private void loop() {
@@ -95,18 +94,18 @@ public class LWJGLRenderEngine {
 		GL.createCapabilities();
 
 		// Set the clear color
-		glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+		GL46.glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 
 		// Run the rendering loop until the user has attempted to close
 		// the window or has pressed the ESCAPE key.
-		while ( !glfwWindowShouldClose(window) ) {
-			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // clear the framebuffer
+		while ( !GLFW.glfwWindowShouldClose(window) ) {
+			GL46.glClear(GL46.GL_COLOR_BUFFER_BIT | GL46.GL_DEPTH_BUFFER_BIT); // clear the framebuffer
 
-			glfwSwapBuffers(window); // swap the color buffers
+			GLFW.glfwSwapBuffers(window); // swap the color buffers
 
 			// Poll for window events. The key callback above will only be
 			// invoked during this call.
-			glfwPollEvents();
+			GLFW.glfwPollEvents();
 		}
 	}
 
