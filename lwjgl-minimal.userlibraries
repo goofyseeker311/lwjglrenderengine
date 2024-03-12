@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eclipse-userlibraries version="2">
+    <library name="lwjgl333" systemlibrary="false">
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-sources.jar"/>
+    </library>
+    <library name="lwjgl333linuxamd64" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-linux.jar"/>
+    </library>
+    <library name="lwjgl333linuxarm32" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-linux-arm32.jar"/>
+    </library>
+    <library name="lwjgl333linuxarm64" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-linux-arm64.jar"/>
+    </library>
+    <library name="lwjgl333macos" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-macos.jar"/>
+    </library>
+    <library name="lwjgl333macosarm64" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-macos-arm64.jar"/>
+    </library>
+    <library name="lwjgl333winamd64" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-windows.jar"/>
+    </library>
+    <library name="lwjgl333winarm64" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-windows-arm64.jar"/>
+    </library>
+    <library name="lwjgl333winx86" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-windows-x86.jar"/>
+    </library>
+</eclipse-userlibraries>
