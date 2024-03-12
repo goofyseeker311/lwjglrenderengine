@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eclipse-userlibraries version="2">
+    <library name="lwjgl333" systemlibrary="false">
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vulkan/lwjgl-vulkan-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vulkan" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vulkan/lwjgl-vulkan.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vulkan/lwjgl-vulkan-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vma/lwjgl-vma-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vma" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vma/lwjgl-vma.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vma/lwjgl-vma-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-assimp/lwjgl-assimp-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-assimp" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-assimp/lwjgl-assimp.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-assimp/lwjgl-assimp-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-stb/lwjgl-stb-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-stb" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-stb/lwjgl-stb.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-stb/lwjgl-stb-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-par/lwjgl-par-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-par" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-par/lwjgl-par.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-par/lwjgl-par-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-cuda/lwjgl-cuda-javadoc.jar!/" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-cuda/lwjgl-cuda.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-cuda/lwjgl-cuda-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-bgfx/lwjgl-bgfx-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-bgfx" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-bgfx/lwjgl-bgfx.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-bgfx/lwjgl-bgfx-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-egl/lwjgl-egl-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-egl" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-egl/lwjgl-egl.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-egl/lwjgl-egl-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-fmod/lwjgl-fmod-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-fmod" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-fmod/lwjgl-fmod.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-fmod/lwjgl-fmod-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-freetype/lwjgl-freetype-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-freetype" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-freetype/lwjgl-freetype.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-freetype/lwjgl-freetype-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-harfbuzz/lwjgl-harfbuzz-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-harfbuzz" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-harfbuzz/lwjgl-harfbuzz.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-harfbuzz/lwjgl-harfbuzz-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-hwloc/lwjgl-hwloc-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-hwloc" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-hwloc/lwjgl-hwloc.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-hwloc/lwjgl-hwloc-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jawt/lwjgl-jawt-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jawt" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jawt/lwjgl-jawt.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jawt/lwjgl-jawt-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jemalloc/lwjgl-jemalloc-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jemalloc" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jemalloc/lwjgl-jemalloc.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jemalloc/lwjgl-jemalloc-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ktx/lwjgl-ktx-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ktx" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ktx/lwjgl-ktx.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ktx/lwjgl-ktx-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-libdivide/lwjgl-libdivide-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-libdivide" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-libdivide/lwjgl-libdivide.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-libdivide/lwjgl-libdivide-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-llvm/lwjgl-llvm-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-llvm" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-llvm/lwjgl-llvm.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-llvm/lwjgl-llvm-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lmdb/lwjgl-lmdb-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lmdb" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lmdb/lwjgl-lmdb.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lmdb/lwjgl-lmdb-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lz4/lwjgl-lz4-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lz4" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lz4/lwjgl-lz4.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lz4/lwjgl-lz4-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meow/lwjgl-meow-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meow" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meow/lwjgl-meow.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meow/lwjgl-meow-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meshoptimizer/lwjgl-meshoptimizer-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meshoptimizer" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meshoptimizer/lwjgl-meshoptimizer.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meshoptimizer/lwjgl-meshoptimizer-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nanovg/lwjgl-nanovg-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nanovg" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nanovg/lwjgl-nanovg.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nanovg/lwjgl-nanovg-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nfd/lwjgl-nfd-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nfd" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nfd/lwjgl-nfd.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nfd/lwjgl-nfd-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nuklear/lwjgl-nuklear-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nuklear" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nuklear/lwjgl-nuklear.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nuklear/lwjgl-nuklear-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-odbc/lwjgl-odbc-javadoc.jar!/" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-odbc/lwjgl-odbc.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-odbc/lwjgl-odbc-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openal/lwjgl-openal-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openal" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openal/lwjgl-openal.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openal/lwjgl-openal-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opencl/lwjgl-opencl-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opencl" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opencl/lwjgl-opencl.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opencl/lwjgl-opencl-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengles/lwjgl-opengles-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengles" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengles/lwjgl-opengles.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengles/lwjgl-opengles-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openvr/lwjgl-openvr-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openvr" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openvr/lwjgl-openvr.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openvr/lwjgl-openvr-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openxr/lwjgl-openxr-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openxr" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openxr/lwjgl-openxr.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openxr/lwjgl-openxr-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opus/lwjgl-opus-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opus" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opus/lwjgl-opus.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opus/lwjgl-opus-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ovr/lwjgl-ovr-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ovr" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ovr/lwjgl-ovr.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ovr/lwjgl-ovr-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-remotery/lwjgl-remotery-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-remotery" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-remotery/lwjgl-remotery.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-remotery/lwjgl-remotery-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-rpmalloc/lwjgl-rpmalloc-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-rpmalloc" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-rpmalloc/lwjgl-rpmalloc.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-rpmalloc/lwjgl-rpmalloc-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-spvc/lwjgl-spvc-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-spvc" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-spvc/lwjgl-spvc.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-spvc/lwjgl-spvc-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-sse/lwjgl-sse-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-sse" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-sse/lwjgl-sse.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-sse/lwjgl-sse-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyexr/lwjgl-tinyexr-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyexr" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyexr/lwjgl-tinyexr.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyexr/lwjgl-tinyexr-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyfd/lwjgl-tinyfd-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyfd" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyfd/lwjgl-tinyfd.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyfd/lwjgl-tinyfd-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tootle/lwjgl-tootle-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tootle" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tootle/lwjgl-tootle.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tootle/lwjgl-tootle-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-xxhash/lwjgl-xxhash-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-xxhash" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-xxhash/lwjgl-xxhash.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-xxhash/lwjgl-xxhash-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-yoga/lwjgl-yoga-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-yoga" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-yoga/lwjgl-yoga.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-yoga/lwjgl-yoga-sources.jar"/>
+        <archive javadoc="jar:file:/C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-zstd/lwjgl-zstd-javadoc.jar!/" nativelibpaths="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-zstd" path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-zstd/lwjgl-zstd.jar" source="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-zstd/lwjgl-zstd-sources.jar"/>
+    </library>
+    <library name="lwjgl333linuxamd64" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vma/lwjgl-vma-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-assimp/lwjgl-assimp-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-stb/lwjgl-stb-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-par/lwjgl-par-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-bgfx/lwjgl-bgfx-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-freetype/lwjgl-freetype-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-harfbuzz/lwjgl-harfbuzz-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-hwloc/lwjgl-hwloc-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jemalloc/lwjgl-jemalloc-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ktx/lwjgl-ktx-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-libdivide/lwjgl-libdivide-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-llvm/lwjgl-llvm-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lmdb/lwjgl-lmdb-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lz4/lwjgl-lz4-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meow/lwjgl-meow-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meshoptimizer/lwjgl-meshoptimizer-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nanovg/lwjgl-nanovg-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nfd/lwjgl-nfd-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nuklear/lwjgl-nuklear-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openal/lwjgl-openal-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengles/lwjgl-opengles-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openvr/lwjgl-openvr-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openxr/lwjgl-openxr-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opus/lwjgl-opus-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-remotery/lwjgl-remotery-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-rpmalloc/lwjgl-rpmalloc-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-spvc/lwjgl-spvc-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-sse/lwjgl-sse-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyexr/lwjgl-tinyexr-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyfd/lwjgl-tinyfd-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tootle/lwjgl-tootle-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-xxhash/lwjgl-xxhash-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-yoga/lwjgl-yoga-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-zstd/lwjgl-zstd-natives-linux.jar"/>
+    </library>
+    <library name="lwjgl333linuxarm32" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vma/lwjgl-vma-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-assimp/lwjgl-assimp-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-stb/lwjgl-stb-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-par/lwjgl-par-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-bgfx/lwjgl-bgfx-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-freetype/lwjgl-freetype-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-harfbuzz/lwjgl-harfbuzz-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-hwloc/lwjgl-hwloc-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jemalloc/lwjgl-jemalloc-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ktx/lwjgl-ktx-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-libdivide/lwjgl-libdivide-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-llvm/lwjgl-llvm-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lmdb/lwjgl-lmdb-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lz4/lwjgl-lz4-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meow/lwjgl-meow-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meshoptimizer/lwjgl-meshoptimizer-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nanovg/lwjgl-nanovg-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nfd/lwjgl-nfd-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nuklear/lwjgl-nuklear-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openal/lwjgl-openal-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengles/lwjgl-opengles-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openvr/lwjgl-openvr-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openxr/lwjgl-openxr-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opus/lwjgl-opus-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-remotery/lwjgl-remotery-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-rpmalloc/lwjgl-rpmalloc-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-spvc/lwjgl-spvc-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-sse/lwjgl-sse-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyexr/lwjgl-tinyexr-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyfd/lwjgl-tinyfd-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tootle/lwjgl-tootle-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-xxhash/lwjgl-xxhash-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-yoga/lwjgl-yoga-natives-linux-arm32.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-zstd/lwjgl-zstd-natives-linux-arm32.jar"/>
+    </library>
+    <library name="lwjgl333linuxarm64" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vma/lwjgl-vma-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-assimp/lwjgl-assimp-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-stb/lwjgl-stb-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-par/lwjgl-par-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-bgfx/lwjgl-bgfx-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-freetype/lwjgl-freetype-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-harfbuzz/lwjgl-harfbuzz-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-hwloc/lwjgl-hwloc-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jemalloc/lwjgl-jemalloc-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ktx/lwjgl-ktx-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-libdivide/lwjgl-libdivide-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-llvm/lwjgl-llvm-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lmdb/lwjgl-lmdb-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lz4/lwjgl-lz4-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meow/lwjgl-meow-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meshoptimizer/lwjgl-meshoptimizer-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nanovg/lwjgl-nanovg-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nfd/lwjgl-nfd-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nuklear/lwjgl-nuklear-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openal/lwjgl-openal-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengles/lwjgl-opengles-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openvr/lwjgl-openvr-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openxr/lwjgl-openxr-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opus/lwjgl-opus-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-remotery/lwjgl-remotery-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-rpmalloc/lwjgl-rpmalloc-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-spvc/lwjgl-spvc-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-sse/lwjgl-sse-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyexr/lwjgl-tinyexr-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyfd/lwjgl-tinyfd-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tootle/lwjgl-tootle-natives-linux.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-xxhash/lwjgl-xxhash-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-yoga/lwjgl-yoga-natives-linux-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-zstd/lwjgl-zstd-natives-linux-arm64.jar"/>
+    </library>
+    <library name="lwjgl333macos" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vulkan/lwjgl-vulkan-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vma/lwjgl-vma-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-assimp/lwjgl-assimp-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-stb/lwjgl-stb-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-par/lwjgl-par-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-bgfx/lwjgl-bgfx-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-freetype/lwjgl-freetype-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-harfbuzz/lwjgl-harfbuzz-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-hwloc/lwjgl-hwloc-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jemalloc/lwjgl-jemalloc-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ktx/lwjgl-ktx-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-libdivide/lwjgl-libdivide-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-llvm/lwjgl-llvm-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lmdb/lwjgl-lmdb-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lz4/lwjgl-lz4-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meow/lwjgl-meow-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meshoptimizer/lwjgl-meshoptimizer-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nanovg/lwjgl-nanovg-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nfd/lwjgl-nfd-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nuklear/lwjgl-nuklear-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openal/lwjgl-openal-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengles/lwjgl-opengles-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openvr/lwjgl-openvr-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opus/lwjgl-opus-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-remotery/lwjgl-remotery-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-rpmalloc/lwjgl-rpmalloc-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-spvc/lwjgl-spvc-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-sse/lwjgl-sse-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyexr/lwjgl-tinyexr-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyfd/lwjgl-tinyfd-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tootle/lwjgl-tootle-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-xxhash/lwjgl-xxhash-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-yoga/lwjgl-yoga-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-zstd/lwjgl-zstd-natives-macos.jar"/>
+    </library>
+    <library name="lwjgl333macosarm64" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vulkan/lwjgl-vulkan-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vma/lwjgl-vma-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-assimp/lwjgl-assimp-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-stb/lwjgl-stb-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-par/lwjgl-par-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-bgfx/lwjgl-bgfx-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-freetype/lwjgl-freetype-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-harfbuzz/lwjgl-harfbuzz-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-hwloc/lwjgl-hwloc-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jemalloc/lwjgl-jemalloc-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ktx/lwjgl-ktx-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-libdivide/lwjgl-libdivide-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-llvm/lwjgl-llvm-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lmdb/lwjgl-lmdb-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lz4/lwjgl-lz4-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meow/lwjgl-meow-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meshoptimizer/lwjgl-meshoptimizer-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nanovg/lwjgl-nanovg-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nfd/lwjgl-nfd-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nuklear/lwjgl-nuklear-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openal/lwjgl-openal-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengles/lwjgl-opengles-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openvr/lwjgl-openvr-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opus/lwjgl-opus-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-remotery/lwjgl-remotery-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-rpmalloc/lwjgl-rpmalloc-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-spvc/lwjgl-spvc-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-sse/lwjgl-sse-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyexr/lwjgl-tinyexr-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyfd/lwjgl-tinyfd-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tootle/lwjgl-tootle-natives-macos.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-xxhash/lwjgl-xxhash-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-yoga/lwjgl-yoga-natives-macos-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-zstd/lwjgl-zstd-natives-macos-arm64.jar"/>
+    </library>
+    <library name="lwjgl333winamd64" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-assimp/lwjgl-assimp-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-bgfx/lwjgl-bgfx-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-par/lwjgl-par-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-stb/lwjgl-stb-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vma/lwjgl-vma-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-freetype/lwjgl-freetype-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-harfbuzz/lwjgl-harfbuzz-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-hwloc/lwjgl-hwloc-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jemalloc/lwjgl-jemalloc-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ktx/lwjgl-ktx-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-libdivide/lwjgl-libdivide-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-llvm/lwjgl-llvm-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lmdb/lwjgl-lmdb-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lz4/lwjgl-lz4-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meow/lwjgl-meow-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meshoptimizer/lwjgl-meshoptimizer-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nanovg/lwjgl-nanovg-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nfd/lwjgl-nfd-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nuklear/lwjgl-nuklear-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openal/lwjgl-openal-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengles/lwjgl-opengles-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openvr/lwjgl-openvr-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openxr/lwjgl-openxr-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opus/lwjgl-opus-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ovr/lwjgl-ovr-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-remotery/lwjgl-remotery-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-rpmalloc/lwjgl-rpmalloc-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-spvc/lwjgl-spvc-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-sse/lwjgl-sse-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyexr/lwjgl-tinyexr-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyfd/lwjgl-tinyfd-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tootle/lwjgl-tootle-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-xxhash/lwjgl-xxhash-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-yoga/lwjgl-yoga-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-zstd/lwjgl-zstd-natives-windows.jar"/>
+    </library>
+    <library name="lwjgl333winarm64" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vma/lwjgl-vma-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-assimp/lwjgl-assimp-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-stb/lwjgl-stb-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-par/lwjgl-par-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-bgfx/lwjgl-bgfx-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-freetype/lwjgl-freetype-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-harfbuzz/lwjgl-harfbuzz-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-hwloc/lwjgl-hwloc-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jemalloc/lwjgl-jemalloc-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ktx/lwjgl-ktx-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-libdivide/lwjgl-libdivide-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-llvm/lwjgl-llvm-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lmdb/lwjgl-lmdb-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lz4/lwjgl-lz4-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meow/lwjgl-meow-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meshoptimizer/lwjgl-meshoptimizer-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nanovg/lwjgl-nanovg-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nfd/lwjgl-nfd-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nuklear/lwjgl-nuklear-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openal/lwjgl-openal-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengles/lwjgl-opengles-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openvr/lwjgl-openvr-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openxr/lwjgl-openxr-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opus/lwjgl-opus-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ovr/lwjgl-ovr-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-remotery/lwjgl-remotery-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-rpmalloc/lwjgl-rpmalloc-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-spvc/lwjgl-spvc-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-sse/lwjgl-sse-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyexr/lwjgl-tinyexr-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyfd/lwjgl-tinyfd-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tootle/lwjgl-tootle-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-xxhash/lwjgl-xxhash-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-yoga/lwjgl-yoga-natives-windows-arm64.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-zstd/lwjgl-zstd-natives-windows-arm64.jar"/>
+    </library>
+    <library name="lwjgl333winx86" systemlibrary="false">
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl/lwjgl-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-glfw/lwjgl-glfw-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengl/lwjgl-opengl-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-shaderc/lwjgl-shaderc-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-vma/lwjgl-vma-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-assimp/lwjgl-assimp-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-stb/lwjgl-stb-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-par/lwjgl-par-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-bgfx/lwjgl-bgfx-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-freetype/lwjgl-freetype-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-harfbuzz/lwjgl-harfbuzz-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-hwloc/lwjgl-hwloc-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-jemalloc/lwjgl-jemalloc-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ktx/lwjgl-ktx-natives-windows.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-libdivide/lwjgl-libdivide-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-llvm/lwjgl-llvm-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lmdb/lwjgl-lmdb-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-lz4/lwjgl-lz4-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meow/lwjgl-meow-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-meshoptimizer/lwjgl-meshoptimizer-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nanovg/lwjgl-nanovg-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nfd/lwjgl-nfd-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-nuklear/lwjgl-nuklear-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openal/lwjgl-openal-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opengles/lwjgl-opengles-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openvr/lwjgl-openvr-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-openxr/lwjgl-openxr-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-opus/lwjgl-opus-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-ovr/lwjgl-ovr-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-remotery/lwjgl-remotery-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-rpmalloc/lwjgl-rpmalloc-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-spvc/lwjgl-spvc-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-sse/lwjgl-sse-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyexr/lwjgl-tinyexr-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tinyfd/lwjgl-tinyfd-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-tootle/lwjgl-tootle-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-xxhash/lwjgl-xxhash-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-yoga/lwjgl-yoga-natives-windows-x86.jar"/>
+        <archive path="C:/eclipse/pkg/lwjgl3-3.3.3-bin/lwjgl-zstd/lwjgl-zstd-natives-windows-x86.jar"/>
+    </library>
+</eclipse-userlibraries>
