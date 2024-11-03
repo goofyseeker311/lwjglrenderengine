@@ -1,5 +1,5 @@
 # LWJGL Render Engine
-LWJGL OpenGL Render Engine.
+LWJGL OpenGL CPU software render engine.
 
 Compiling:
 ----------------
