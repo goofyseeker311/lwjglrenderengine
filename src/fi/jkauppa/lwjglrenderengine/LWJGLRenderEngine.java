@@ -3,7 +3,6 @@ package fi.jkauppa.lwjglrenderengine;
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.FloatBuffer;
 import java.nio.IntBuffer;
@@ -25,6 +24,7 @@ public class LWJGLRenderEngine {
     Callback debugProc;
 
 	private int vao;
+	private int tex;
 	private int quadProgram;
 	private int quadProgram_inputPosition;
 	private int quadProgram_inputTextureCoords;
@@ -48,7 +48,7 @@ public class LWJGLRenderEngine {
 		if ( !GLFW.glfwInit() ) {throw new IllegalStateException("Unable to initialize GLFW");}
 		GLFW.glfwWindowHint(GLFW.GLFW_VISIBLE, GLFW.GLFW_FALSE);
 		GLFW.glfwWindowHint(GLFW.GLFW_RESIZABLE, GLFW.GLFW_FALSE);
-		window = GLFW.glfwCreateWindow(framebufferwidth, framebufferheight, "LWJGL Render Engine v0.1.1", MemoryUtil.NULL, MemoryUtil.NULL);
+		window = GLFW.glfwCreateWindow(framebufferwidth, framebufferheight, "LWJGL Render Engine v0.2.0", MemoryUtil.NULL, MemoryUtil.NULL);
 		if (window == MemoryUtil.NULL) {throw new RuntimeException("Failed to create the GLFW window");}
 		GLFW.glfwMakeContextCurrent(window);
 		GLFW.glfwSwapInterval(1);
@@ -57,17 +57,16 @@ public class LWJGLRenderEngine {
 		
 		for (int y=0;y<100;y++) {for (int x=0;x<framebufferwidth;x++) {framebuffer[y*framebufferwidth+x] = 0xff0000ff;}}
 		
-		try {
-			createTexture();
-        	createQuadProgram();
-        	createFullScreenQuad();
-		} catch(Exception ex){System.out.println(ex.toString());}
+		tex = createTexture();
+        createQuadProgram();
+        createFullScreenQuad();
 	}
 
 	private void loop() {
 		GL46.glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 		while ( !GLFW.glfwWindowShouldClose(window) ) {
 			GL46.glClear(GL46.GL_COLOR_BUFFER_BIT | GL46.GL_DEPTH_BUFFER_BIT);
+			updateTexture(tex);
 			GL46.glViewport(0, 0, framebufferwidth, framebufferheight);
 	    	GL46.glUseProgram(quadProgram);
 	    	GL46.glBindVertexArray(vao);
@@ -83,7 +82,7 @@ public class LWJGLRenderEngine {
 		new LWJGLRenderEngine().run();
 	}
 	
-    private void createQuadProgram() throws IOException {
+    private void createQuadProgram() {
         int program = GL46.glCreateProgram();
         int vshader = createShader("res/glshaders/texturedquad.vs", GL46.GL_VERTEX_SHADER, true);
         int fshader = createShader("res/glshaders/texturedquad.fs", GL46.GL_FRAGMENT_SHADER, true);
@@ -136,15 +135,21 @@ public class LWJGLRenderEngine {
         GL46.glBindVertexArray(0);
     }
 
-    private void createTexture() {
+    private int createTexture() {
         int id = GL46.glGenTextures();
         GL46.glBindTexture(GL46.GL_TEXTURE_2D, id);
         GL46.glTexParameteri(GL46.GL_TEXTURE_2D, GL46.GL_TEXTURE_MIN_FILTER, GL46.GL_NEAREST);
         GL46.glTexParameteri(GL46.GL_TEXTURE_2D, GL46.GL_TEXTURE_MAG_FILTER, GL46.GL_NEAREST);
-        GL46.glTexImage2D(GL46.GL_TEXTURE_2D, 0, GL46.GL_RGBA8, framebufferwidth, framebufferheight, 0, GL46.GL_RGBA, GL46.GL_UNSIGNED_INT_8_8_8_8, framebuffer);
+        GL46.glTexImage2D(GL46.GL_TEXTURE_2D, 0, GL46.GL_RGBA8, framebufferwidth, framebufferheight, 0, GL46.GL_RGBA, GL46.GL_UNSIGNED_INT_8_8_8_8, MemoryUtil.NULL);
+        return id;
     }
     
-    private int createShader(String resource, int type, boolean loadresourcefromjar) throws IOException {
+    private void updateTexture(int id) {
+        GL46.glBindTexture(GL46.GL_TEXTURE_2D, id);
+        GL46.glTexSubImage2D(GL46.GL_TEXTURE_2D, 0, 0, 0, framebufferwidth, framebufferheight, GL46.GL_RGBA, GL46.GL_UNSIGNED_INT_8_8_8_8, framebuffer);
+    }
+    
+    private int createShader(String resource, int type, boolean loadresourcefromjar) {
         int shader = GL46.glCreateShader(type);
         String sourceShader = loadShader(resource, loadresourcefromjar);
         ByteBuffer source = BufferUtils.createByteBuffer(8192);
