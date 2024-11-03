@@ -6,6 +6,7 @@ import java.io.FileInputStream;
 import java.nio.ByteBuffer;
 import java.nio.FloatBuffer;
 import java.nio.IntBuffer;
+import java.util.Random;
 
 import org.lwjgl.BufferUtils;
 import org.lwjgl.PointerBuffer;
@@ -29,10 +30,12 @@ public class LWJGLRenderEngine {
 	private int quadProgram_inputPosition;
 	private int quadProgram_inputTextureCoords;
 	
-	private int framebufferwidth = 1920;
-	private int framebufferheight = 1080;
+	private int framebufferwidth = 1280;
+	private int framebufferheight = 720;
 	private int framebufferlength = framebufferwidth*framebufferheight;
 	private int[] framebuffer = new int[framebufferlength];
+	
+	private Random rand = new Random();
 
 	public void run() {
 		init();
@@ -48,25 +51,35 @@ public class LWJGLRenderEngine {
 		if ( !GLFW.glfwInit() ) {throw new IllegalStateException("Unable to initialize GLFW");}
 		GLFW.glfwWindowHint(GLFW.GLFW_VISIBLE, GLFW.GLFW_FALSE);
 		GLFW.glfwWindowHint(GLFW.GLFW_RESIZABLE, GLFW.GLFW_FALSE);
-		window = GLFW.glfwCreateWindow(framebufferwidth, framebufferheight, "LWJGL Render Engine v0.2.0", MemoryUtil.NULL, MemoryUtil.NULL);
+		window = GLFW.glfwCreateWindow(framebufferwidth, framebufferheight, "LWJGL Render Engine v0.2.1", MemoryUtil.NULL, MemoryUtil.NULL);
 		if (window == MemoryUtil.NULL) {throw new RuntimeException("Failed to create the GLFW window");}
 		GLFW.glfwMakeContextCurrent(window);
 		GLFW.glfwSwapInterval(1);
 		GLFW.glfwShowWindow(window);
 		caps = GL.createCapabilities();
 		
-		for (int y=0;y<100;y++) {for (int x=0;x<framebufferwidth;x++) {framebuffer[y*framebufferwidth+x] = 0xff0000ff;}}
+		for (int y=0;y<100;y++) {for (int x=0;x<framebufferwidth;x++) {framebuffer[y*framebufferwidth+x] = 0xff00ffff;}}
 		
-		tex = createTexture();
         createQuadProgram();
         createFullScreenQuad();
+        
+		tex = createTexture();
+		updateTexture(tex);
+        
 	}
 
 	private void loop() {
 		GL46.glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 		while ( !GLFW.glfwWindowShouldClose(window) ) {
 			GL46.glClear(GL46.GL_COLOR_BUFFER_BIT | GL46.GL_DEPTH_BUFFER_BIT);
+			
+			for (int i=0;i<100;i++) {
+				int x = rand.nextInt(framebufferwidth);
+				int y = rand.nextInt(framebufferheight);
+				framebuffer[y*framebufferwidth+x] = 0xff00ffff;
+			}
 			updateTexture(tex);
+			
 			GL46.glViewport(0, 0, framebufferwidth, framebufferheight);
 	    	GL46.glUseProgram(quadProgram);
 	    	GL46.glBindVertexArray(vao);
